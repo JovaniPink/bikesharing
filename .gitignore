@@ -129,5 +129,3 @@ dmypy.json
 .pyre/
 
 # Project Files
-/data/raw/201908-citibike-tripdata.csv
-/data/processed/NYC_Citibike_Processed_Data.csv
