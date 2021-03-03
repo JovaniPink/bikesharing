@@ -1,12 +1,12 @@
 # Citi Bike Analysis
 
-> Breakdown of Citi Bike's rider data in New York City from August 2019 for insights into bike usage in 2020.
+> Breakdown of Citi Bike's rider data in New York City from August 2019 for insights into bike usage into 2021.
 
 ![citi-bikes](resources/citi-bike.jpg)
 
 ## Overview of Project
 
-This current repo is a playing with data from Citi Bike Trip Histories. I've made several charts and graphs and we now know the breakdown of rider types in New York City. We know this by the first round of data analysis we did [Citi Bike Analysis Tableau](https://public.tableau.com/profile/jovanipink#!/vizhome/BikeSharing_16039941514670/CitiBikeDashboard) which is feeding to my greater final analysis on User Type and COVID []().
+Analyzed 9 Gigabytes of data from Citi Bike Trip Histories dataset. 14 charts and graphs that focus on the breakdown of rider types in New York City between 2019 and 2021. This 1st round of data analysis we did [Citi Bike Analysis Tableau](https://public.tableau.com/profile/jovanipink#!/vizhome/BikeSharing_16039941514670/CitiBikeDashboard) was the foundation to which fed to a final analysis on User Type in times of COVID []() explaining their use patterns.
 
 I've also charted Citi Bike's data dump sizes and times: [Profiling Citi Bike Trip Data](https://public.tableau.com/profile/jovanipink#!/vizhome/ProfilingCitiBikeTripData/FileSize)
 
@@ -37,7 +37,11 @@ We pulled Citi Bike's data using Python and Pandas to verify the available downl
 
 Originally I was fixed on Gender [Citi Bike Analysis Gender](https://public.tableau.com/profile/jovanipink#!/vizhome/NYCCitibike_16041943647530/Location) and bike usage and concluded that the majority of every category are male. Ok.
 
-When further digging into the dataset one particular column (field) "User Type" caught my attention because of what it "could" say about the rider. The user type is either a customer or subscriber so that customer made the decision of being part of one of those three options.
+When further digging into the dataset one particular column (field) "User Type" caught my attention because of what it "could" say about the rider. The "usertype" column is interesting since it places the customers into two buckets with assumed incentives and motives behind them. I could tell you the particular reason a customer went with either an annual, day, or single-ride pass but we could go over their Citi Bike use during a period of time between January 2019 to January 2021. I chose this specific time period because I wanted to know the patterns of the "usertype" during a pandemic and its closure.
+
+The user type is either a customer or subscriber so that customer made the decision of being part of one of those three options.
+
+"user type":
 
 - Customer = 24-hour pass or 3-day pass user
 - Subscriber = Annual Member
